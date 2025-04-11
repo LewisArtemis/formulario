@@ -17,10 +17,19 @@
             Boolean valido = (Boolean)request.getAttribute("esValido");
             if(valido != null && valido){
         %>
-        <p>Bienvenido, ${usuario}!</p>
-        <p>Has iniciado sesion correctamente.</p>
+        <p>Bienvenida, ${usuario}!</p>
+        <div>
+        <h2>Menu de opciones</h2> 
+        <br><br>
+        <input type="submit" value="Home">
+        <br><br>
+        <input type="submit" value="Cuentas" />
+        <br><br>
+        <input type="submit" value="Registros" />
+        </div>
         <%}else { %>
         <p>Usuario o contraseña incorrectos. </p>
         <a href="login.jsp">Volver a intentar</a>
+        <%}%>
     </body>
 </html>

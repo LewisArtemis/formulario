@@ -35,9 +35,9 @@ public class ValidarUsuarioServlet extends HttpServlet {
         boolean esValido = false;
         String mensaje ="";
         
-        if("admin".equals(user) && "1234".equals(pass)) {
+        if("Karen".equals(user) && "1234".equals(pass)) {
             esValido = true;
-            mensaje = "Registro Exitoso";
+            mensaje = "Hola " + user;
         } else {
             mensaje = "Registro Inválido";
         }

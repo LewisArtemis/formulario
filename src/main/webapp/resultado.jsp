@@ -21,7 +21,7 @@
         <div>
         <h2>Menu de opciones</h2> 
         <br><br>
-        <input type="submit" value="Home">
+        <a href="home.jsp"><input type="submit" value="Home"></a>
         <br><br>
         <input type="submit" value="Cuentas" />
         <br><br>

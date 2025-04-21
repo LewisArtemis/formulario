@@ -10,7 +10,15 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Ingreso de usuario</title>
-        
+        <style> 
+. login-container { 
+width: 300px; 
+margin: 50px auto;
+padding: 20px;
+border: 1px solid #ddd;
+border-radius: 10px;
+}
+
     </head>
     <body>
         <div>Ingreso Usuario</div>

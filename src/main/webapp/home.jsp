@@ -12,7 +12,9 @@
         <title>JSP Page</title>
     </head>
     <body>
+        
         <h1>Hola ${user}</h1>
+        
         <div>
             <h1>Bienvenida a tu repositorio</h1>
         </div>

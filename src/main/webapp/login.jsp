@@ -11,7 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Ingreso de usuario</title>
         <style> 
-<body>
+body
 {
 font-family: Arial, sans-serif;
 background-color: #f4f4f4;

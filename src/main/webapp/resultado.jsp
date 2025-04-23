@@ -12,6 +12,8 @@
         <title>Resultado de Validacion</title>
     </head>
     <body>
+        
+
         <h1>${mensaje}</h1>
         <%
             Boolean valido = (Boolean)request.getAttribute("esValido");
@@ -20,13 +22,16 @@
         <p>Bienvenida, ${usuario}!</p>
         <div>
         <h2>Menu de opciones</h2> 
-        <br><br>
+        
         <a href="home.jsp"><input type="submit" value="Home"></a>
-        <br><br>
+        
         <input type="submit" value="Cuentas" />
-        <br><br>
+        
         <input type="submit" value="Registros" />
+        
+        <a href="login.jsp"><input type="reset" value="Cerrar Sesion" /></a>
         </div>
+        
         <%}else { %>
         <p>Usuario o contraseña incorrectos. </p>
         <a href="login.jsp">Volver a intentar</a>
